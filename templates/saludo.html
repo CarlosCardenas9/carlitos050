@@ -1,0 +1,70 @@
+{% extends "plantila.html" %}
+ 
+{% block content%}
+
+<div class="ee">
+    <center>
+        <br><br><br><br>
+      <h1 class="kk">C.D.C.H</h1>
+            <center>
+            <section class="yñ">
+                <article class="yh">
+                    <p>NECESITARE TUS DATOS PARA PODER REGISTRARTE EN MI PAGINA</p>
+                    <P class="KO">POR FAVOR, DIGITA TUS LOS DATOS ADQUIRIDOS</P>
+                    <br><br><br>
+                    <center>
+                   <h1>CONTACTO</h1>
+                  <form action="/submit" method="post">
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                        </div><br>
+                        <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        </div><br>
+                        <div class="form-group">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                        </div><br>
+                        <button type="submit">Enviar</button>
+                    </center>
+                  
+                </article>
+                <article>
+
+                        <center>
+                        <img src="static/imagenes/hh.jpeg" alt="" width="300" height="400"><br><br>
+                        <div class="social-icons">
+                            <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                            <a href="https://www.youtube.com/@carlosdavidcardenashernand9488" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                            <a href="https://www.facebook.com/carlosdavid.cardenashernandez.7" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </center>
+                </article>
+            </section> 
+        </form>
+        <nav>
+            <ul>
+                <li><a href="http://127.0.0.1:5000/">INICIO</a></li>
+                <li><a href="http://127.0.0.1:5000/infor">SOBRE MI</a></li>
+                <li><a href="http://127.0.0.1:5000/saludo">CONTACTO</a></li>
+                
+            </ul>
+            
+          
+             
+          </nav>
+  
+                
+            </center>
+
+{% endblock %}
